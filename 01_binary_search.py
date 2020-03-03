@@ -1,7 +1,6 @@
 def binary_search(list, item):
-  # low and high keep track of which part of the list you'll search in.
   low = 0
-  high = len(list) - 1 # => 4
+  high = len(list) - 1 # => 6
 
 
   # While you haven't narrowed it down to one element ...
@@ -23,7 +22,8 @@ def binary_search(list, item):
   return None
 
 my_list = [1, 3, 5, 7, 9, 12,79]
-print(binary_search(my_list, 79)) # => 1
+#print(len(my_list))
 
-# 'None' means nil in Python. We use to indicate that the item wasn't found.
-print(binary_search(my_list, -1)) # => None
+print(binary_search(my_list, 79)) # => 6
+
+print(binary_search(my_list, 4)) # => None
