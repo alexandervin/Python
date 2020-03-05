@@ -2,7 +2,6 @@ def binary_search(list, item):
   low = 0
   high = len(list) - 1 # => 6
 
-
   # While you haven't narrowed it down to one element ...
   while low <= high:
     # ... check the middle element
@@ -22,7 +21,7 @@ def binary_search(list, item):
   return None
 
 my_list = [1, 3, 5, 7, 9, 12,79]
-#print(len(my_list))
+print(len(my_list))
 
 print(binary_search(my_list, 79)) # => 6
 
