@@ -2,7 +2,6 @@ def binary_search(list, item):
   low = 0
   high = len(list) - 1 # => 6
 
-
   # While you haven't narrowed it down to one element ...
   while low <= high:
     # ... check the middle element
@@ -10,7 +9,7 @@ def binary_search(list, item):
     guess = list[mid]
     # Found the item.
     if guess == item:
-      return mid
+      return print(f'индек числа {item} в упорядоченном списке {list}, является : {mid}')
     # The guess was too high.
     if guess > item:
       high = mid - 1
@@ -24,6 +23,6 @@ def binary_search(list, item):
 my_list = [1, 3, 5, 7, 9, 12,79]
 #print(len(my_list))
 
-print(binary_search(my_list, 79)) # => 6
+print(binary_search(my_list, 79))
 
-print(binary_search(my_list, 4)) # => None
+print(binary_search(my_list, 3))
