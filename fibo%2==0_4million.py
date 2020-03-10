@@ -1,6 +1,6 @@
 fib_seq = {}
 
-def fib_iterative(n):
+#git def fib_iterative(n):
     if n in fib_seq.keys():
         return fib_seq[n]
     a,b,x = 0,1,n
