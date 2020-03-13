@@ -1,3 +1,4 @@
+#TODO
 from random import randint
 
 N = 10
