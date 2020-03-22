@@ -1,3 +1,4 @@
+# coding=utf-8
 '''
 words = ['мадам', 'test', 'madam', 'lol', 'dsfddsfdsfds']
 
