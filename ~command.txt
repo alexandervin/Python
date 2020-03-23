@@ -1,4 +1,4 @@
-cd~~~~BASH COMMANDS~~~
+~~~~BASH COMMANDS~~~
 ctrl+alt+f3 ## вход в шелл
 F7 ## выход из шелл
 ctr+c ## прервать
