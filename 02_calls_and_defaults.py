@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-
-
+пше
 # Способы вызова функций
 def vector_module(x, y, z):
     return (x ** 2 + y ** 2 + z ** 2) ** .5
