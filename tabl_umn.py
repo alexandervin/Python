@@ -1,5 +1,5 @@
 '''
-ot 1 do 9 tabl umnoj
+ot 1 do 9 tabl umnojen
 '''
 for i in range(1, 10):
     print(i)
