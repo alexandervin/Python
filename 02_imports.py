@@ -40,7 +40,7 @@ function1()
 
 
 ###
-# Python поставляется с библиотекой стандартных модулей
+# Python поставляется с библиотекой стандартных модулей.........
 # полный список http://docs.python.org/3/library/index.html
 
 import math
